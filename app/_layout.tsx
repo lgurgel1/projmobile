@@ -22,6 +22,48 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen 
+          name="index" 
+          options={{
+            title: 'Home',
+            headerShown: true
+          }}
+        />
+        <Stack.Screen 
+          name="sobre" 
+          options={{
+            title: 'Sobre',
+            headerShown: true
+          }}
+        />
+        <Stack.Screen 
+          name="experiencia-academica" 
+          options={{
+            title: 'Experiência Acadêmica',
+            headerShown: true
+          }}
+        />
+        <Stack.Screen 
+          name="experiencia-profissional" 
+          options={{
+            title: 'Experiência Profissional',
+            headerShown: true
+          }}
+        />
+        <Stack.Screen 
+          name="projetos" 
+          options={{
+            title: 'Projetos',
+            headerShown: true
+          }}
+        />
+        <Stack.Screen 
+          name="jogo" 
+          options={{
+            title: 'Jogo',
+            headerShown: true
+          }}
+        />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
