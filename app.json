@@ -37,6 +37,19 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "94adb255-c059-49cf-adc2-2d85bd9ad5fa"
+      }
+    },
+    "owner": "lgurgel10",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/94adb255-c059-49cf-adc2-2d85bd9ad5fa"
     }
   }
 }
